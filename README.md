@@ -43,7 +43,6 @@ CloudVue是一套基于Vue全家桶（Vue2.x + Vue-router2.x + Vuex）+ Thinkphp
 1.安装node.js
   前端部分是基于node.js上运行的，所以必须先安装node.js，版本要求为6.9.0以上(推荐安装官方推荐版本)，下载地址：https://nodejs.org/zh-cn/
 
-完成以上两个步骤之后，我们进入到frontEnd这个目录，然后按顺序执行以下两行代码就可以愉快地玩耍了。
 npm install
 npm run dev
 
@@ -51,3 +50,6 @@ npm run dev
 如果想替换前端默认端口，可修改config/index.js里面的dev对象的port参数，但不建议这么做。
 另外接口请求本地服务的端口是80端口，如果配置后端服务的时候启动的不是80端口，可在build/webpack.base.conf.js里修改DEV_HOST（开发环境请求地址）。
 ```
+如果项目对您有用，请作者喝杯咖啡吧！谢谢
+
+![收款](./pic/收款.jpg)
